@@ -35,10 +35,6 @@ Pod::Spec.new do |s|
     'CTVideoView' => ['Pod/Assets/images/*.png']
   }
   
-  
-  s.public_header_files = 'Pod/Classes/*.h'
-  s.source_files = 'Pod/Classes/*.{h,m}'
-  
   s.subspec 'categories' do |ss|
       ss.public_header_files = 'Pod/Classes/categories/**/*.h'
       ss.source_files = 'Pod/Classes/categories/**/*'
