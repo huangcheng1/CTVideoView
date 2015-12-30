@@ -7,124 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		096DDE2950C7C22C305DD6443B7A5E96 /* CTVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B481C866164DB2C73BBD21B4619220F /* CTVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E537FAF40A538C12D45CC58E5B525A1 /* AVPlayerItem+Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = EC453533225EB8CC19166B2F23607244 /* AVPlayerItem+Audio.m */; };
-		0FA3BF29D57B16BDA51CC9F45D78BB03 /* CTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70303B1223E8DA585A7C1018B922007 /* CTTableViewCell.m */; };
-		1B0CE0A8E2A0C0D6BCAD8B717BA03E48 /* CTTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C07A99017AE537B91476F2E0F067664 /* CTTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B3627EF79CA92CA172FCF76733D561F /* CTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD63926ED6C5CD77ADEA3F16D9B52EA /* CTPlayerView.m */; };
-		1CBC2E5E401913DA4DC3AE3C18F8DAB4 /* AVPlayerItem+Url.m in Sources */ = {isa = PBXBuildFile; fileRef = 22545B9E0C955847C22E8661CE0247F6 /* AVPlayerItem+Url.m */; };
-		2571EB635E226B31707B9D5EA2336A5D /* UIView+PlayerItemSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 868EE0E85A1F1EA73C04D152CFAB53CB /* UIView+PlayerItemSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		307380F203BFDEC228F49EA6D0AB347B /* ctvideo_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BE0074360F8A97F0BFCB42AA697F9B3 /* ctvideo_pause@2x.png */; };
-		364F3588932F6AA1B997BC4547FD6D49 /* AVPlayerItem+Url.h in Headers */ = {isa = PBXBuildFile; fileRef = 9756EF9D6951DDE3394C772BF0D00211 /* AVPlayerItem+Url.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38C9DBFDC0FA4C6D8A44E173D9A7C066 /* CTVideoControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = D2A3316D7E7B8EE7EFDDD513A147E3AC /* CTVideoControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		399BEC048998FE8EA85D86BD0F4ED592 /* ctvideo_btn_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A39634675C9A634A1D6B09C1DC25CB5B /* ctvideo_btn_play@2x.png */; };
-		3B24FE5207293A1DB9F08558F5CB4273 /* CTPlayerAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1465A2996B6B955A7390F2F14F9DEF /* CTPlayerAudioManager.m */; };
-		51B5CFFE9C7D1814F7AB2962798133C8 /* ctvideo_record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E2C5A8E9BD4BAC82606A3D82239CB9 /* ctvideo_record@3x.png */; };
+		052829A77DFF7D57879FFB005FFDB619 /* ctvideo_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 890FC35CACCECB0810BB1956D517321E /* ctvideo_pause@3x.png */; };
+		06E0A0655965FA939417A73859C1F0F9 /* CTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5E7BE8BEDE1031A79ACBDF402A3F55 /* CTTestViewController.m */; };
+		09688D9841E5C7CE3F99A81F64657FE8 /* ctvideo_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC091C61701D053AC3676802173FDCEF /* ctvideo_play@2x.png */; };
+		0D7B91A2D8DB4B412EDDE10C15CD1121 /* AVPlayerItem+Url.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C07FAD5A7AF58FB04CBCA93E694AE0 /* AVPlayerItem+Url.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23FF519AEEE48729B843ED2E5361C46C /* ctvideo_btn_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D2762C2CCD65D24632401C26038DA8 /* ctvideo_btn_play@2x.png */; };
+		2F6CCB87B46B139675C305168CEA4FEC /* CTVideoView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E87F71DABB7997DF91EF02362CF3E1A /* CTVideoView-dummy.m */; };
+		2FD9B97AAF28A7C82CA8A6C88771FE3F /* CTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = FE709FA264169531AB2960730F63F059 /* CTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33ECAF7345BE916B6D3C8ADF7FA592B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20AEF4A72CB837526CAFDC29919FE4EC /* AVFoundation.framework */; };
+		3A1789D6FC259DD51C733920A8976726 /* CTPlayerAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD959182FD8FD5569BA99672E83C2D22 /* CTPlayerAudioManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4393C9C4837FDFA6F9D2DF5B0B8DC968 /* AVPlayerItem+Audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FCD0CD3FF18C29F5B5B61B9DF52C4A /* AVPlayerItem+Audio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44D3902AC3CDF2C5EBB0FB1FD5786F68 /* ctvideo_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC4E1019B4077D19702D384BF81E54D /* ctvideo_play@3x.png */; };
 		53314C4EED23DA47C5E3DC5FE26CCA06 /* Pods-CTVideoView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D44D7C68D42985DF7E892312B219F81 /* Pods-CTVideoView_Tests-dummy.m */; };
-		559FF1C3F9EEFA8DDF9DADA0677474D9 /* ctvideo_pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A09B18537CBD1D3144DE1C3D5BA8592E /* ctvideo_pause@3x.png */; };
-		57BE1FE3F4FAC234BC0E9B20BB8255ED /* CTVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 429A6A9143DDBD6A220DF63B5E1274C2 /* CTVideoUtil.m */; };
-		5CEAE328B616AC028560E6C298023AC6 /* CTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919FD40C79BA45BD16F1096449EDA04B /* CTTestViewController.m */; };
-		61F03AFCB4FEB042727F47F1B15F5E27 /* CTVideoVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 08BFC7488BC154BB865646141A7D96A5 /* CTVideoVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68153B75BD5245A94662F54361F6E5EF /* CTVideoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B85F6366476628C251FEFDCF52779AA5 /* CTVideoUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E31DBAA95720EDDEEE18FDA476220BA /* CTVideoControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B56A927C9C42590FF620569D8B8A30 /* CTVideoControlView.m */; };
-		7E60B842381B73884C7CE186DDC1FFC9 /* CTVideoView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CA2CC0D77F99CC40B8AF8122F5CD3C /* CTVideoView-dummy.m */; };
-		87200BE1B0AAF6C8E14478A46F45606B /* UIView+PlayerItemSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E1ADF67A9EA7E61CC32CE33402DE59DE /* UIView+PlayerItemSize.m */; };
-		A2F340EA22188E4ACA591F3C6872AEA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		548649B601D986C7322D594112088F78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB13DF4E60576E47149048B981D0254 /* Foundation.framework */; };
+		584511A02278A3C84413C54DEC1E6E52 /* CTTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 70950589A20587EF34CB099359979FC9 /* CTTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C0172B8446B9426D9A81C79112B4BFA /* CTVideoControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B041275E8A44F8045857749399AA5B1 /* CTVideoControlView.m */; };
+		7FCB5F699B37B7DCF40D69E1DEEC3305 /* CTPlayerAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C612C0FBCCB9846A4084C9DE77236674 /* CTPlayerAudioManager.m */; };
+		80172C3A122BF7FAE8B2FDC6FC108E39 /* CTVideoControlView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E2E69044A027950A188FF36110A9E9 /* CTVideoControlView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81F6C3F295F320614933BEF4538E0434 /* AVPlayerItem+Url.m in Sources */ = {isa = PBXBuildFile; fileRef = B407FDD4C07317C6F384653F287525A8 /* AVPlayerItem+Url.m */; };
+		82790B322E19387165DBC9C4D8D07DF2 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B048160D20F1CEE240B3CA32D748FE3 /* MediaPlayer.framework */; };
+		8A9E5DBBD11D8D9D191081911D158175 /* AVPlayerItem+Audio.m in Sources */ = {isa = PBXBuildFile; fileRef = E640411ED776FB3688C65B08B5FED2B7 /* AVPlayerItem+Audio.m */; };
+		944AE35EB27A6CCA5440A6F9DA9C9038 /* ctvideo_pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2321171D65B39CE19F25B262958564EC /* ctvideo_pause@2x.png */; };
+		966C057F8984AB5FE83F269C53EC7E3F /* CTVideoVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 52E462E5B42CEBE8F0B1D7DE8E5A7C98 /* CTVideoVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0712F49B41D1D033561103B0B79296 /* CTVideoUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 329E5BFA918428A2FE47CF98DF1C6FFB /* CTVideoUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A34B007CFEC906619B7E18A7F3DB7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFCE15C1FE46336F17FF5C7B69707BC /* UIKit.framework */; };
 		A882CB31AD9E6C0A7A5F7F376ABA574E /* Pods-CTVideoView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A329AD3F5FF23C4A2571BCF7D8AD532 /* Pods-CTVideoView_Example-dummy.m */; };
-		AE21966C89F40652FF2114CFFAE5F420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		AFF781E0CB5225D288B11AED3D4FEF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		BCAA8A5E2DE67F81AE683D7C833AA81D /* CTVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AD46FB38E20329943CCC7DDC4832F2 /* CTVideoVC.m */; };
-		C0AE196E031A1B41CD179B4C3932F003 /* CTVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BC99EC3CA9FADA15707D343E31B99B /* CTVideoView.m */; };
-		D255FD58CD7597232B6CBEF72BEDD471 /* ctvideo_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACCC355AA45734A339E9C339ECFBB382 /* ctvideo_record@2x.png */; };
-		D3213022C625714E9E9412E45D3D4ED6 /* CTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F93FCAE1B4219F94F7B0D300DEB012AA /* CTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB8D7C9AA9200628BDDDE4701CBA4A9C /* ctvideo_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C41CA67C2F6205B07FC7049134A917 /* ctvideo_play@3x.png */; };
-		DDBE5C21089C1B6440331E2FC38C67BE /* AVPlayer+AVPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1FB69CCE6B5366F3686C889B47DF55 /* AVPlayer+AVPlayerItem.m */; };
-		E0AA6B54D086598A0F6CAEAC0F85683A /* AVPlayer+AVPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E9EE037083600B3695689EC6C8D3E799 /* AVPlayer+AVPlayerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E397478CB66E9188E09FA7252675C972 /* ctvideo_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30C10D1596511D4F8073FB56750D60E3 /* ctvideo_play@2x.png */; };
-		F117283AC1B1E814871A552A42013E65 /* CTTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AFEDAEE3A87AC5CB976B07053F45AC63 /* CTTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5DCD0DECD8FCC986DD887E86ACBC61C /* CTPlayerAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E0C714F95B1EC770C6E6F3CDE487FC /* CTPlayerAudioManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBDAF745F991C354DBCBD5BEBBC1A219 /* AVPlayerItem+Audio.h in Headers */ = {isa = PBXBuildFile; fileRef = 07A6970B27FBE95BA28FCFA020C6E7F8 /* AVPlayerItem+Audio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE21966C89F40652FF2114CFFAE5F420 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB13DF4E60576E47149048B981D0254 /* Foundation.framework */; };
+		AFF781E0CB5225D288B11AED3D4FEF0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB13DF4E60576E47149048B981D0254 /* Foundation.framework */; };
+		B499511D4318657F41E7C2DD49ADD23E /* CTVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF92C6C0360714134CD6E633815FA61 /* CTVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75CEECF86EEA4A384C5D3B1F73AD752 /* CTTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C37CF800C150B0FE8A70A4A967179137 /* CTTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B918D5C6C033752C552A60CFE4C4D7B8 /* CTVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBF0F5A35CE93925264D9CC15F48090 /* CTVideoView.m */; };
+		C1D85BCF3988C30F9014C6A3D6D8E66D /* AVPlayer+AVPlayerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 401DFE08324A429779EE66F53C7A19F9 /* AVPlayer+AVPlayerItem.m */; };
+		C2E3AA97932EF5D59C2A3BE9EF8C9F74 /* UIView+PlayerItemSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE0118DE26C58B9F6211BF9F8CC5580 /* UIView+PlayerItemSize.m */; };
+		C97D9700DF1DE992F84DAF39F0FAF240 /* CTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B589FAFBCAB61DD3716E1DCF1CAE5C20 /* CTPlayerView.m */; };
+		CFF29E38FF6315235B11654BF1BB68B6 /* UIView+PlayerItemSize.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B9ACB3DD7A12E5CD034D1C6FB837BF /* UIView+PlayerItemSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D128B6CE7FC031E4DF24F18358EC9CFE /* ctvideo_record@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12F7F5CB4931B8384DA272965C908A /* ctvideo_record@3x.png */; };
+		D529F6DFEDDF439891E927712F5893F5 /* CTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7A093C08AD01F197C41BD521C8815 /* CTTableViewCell.m */; };
+		E889091FD1AE925DFCC2486691690D3F /* AVPlayer+AVPlayerItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A911956552293B1931CECF5022C19927 /* AVPlayer+AVPlayerItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F048008B8B37CA28A05D8127981DA4B3 /* CTVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F28D721A94F2069DCAA16162972B10 /* CTVideoVC.m */; };
+		F4C8BB7195394B0384C5ADA848D52C4A /* CTVideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 245DF840180D4702076C35A697387773 /* CTVideoUtil.m */; };
+		F93C8CE57DCF328D3E4EBC564E3CE1D0 /* ctvideo_record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9865CB2A8BDEDB44C8DCAB9EF550E7 /* ctvideo_record@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2CF685F6A0905373A91D6F0143A88C6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32DB0C7217A492F34B8197F57BD8001C;
+			remoteInfo = "CTVideoView-CTVideoView";
+		};
 		46ADC73385F9E543B2E55258A85D1913 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A283776BD922FA4F7B393E6B0250A49;
+			remoteGlobalIDString = E5CF8083F7F27E2AD2C8513CFB8907B5;
 			remoteInfo = CTVideoView;
 		};
 		D3A5EB46CD97CCE5E6FE52F296AE600F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2A283776BD922FA4F7B393E6B0250A49;
+			remoteGlobalIDString = E5CF8083F7F27E2AD2C8513CFB8907B5;
 			remoteInfo = CTVideoView;
-		};
-		E31F8E40D080AFFD48209CEF65E1838B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 296B361816E8CB46DA8710EE76B74FC6;
-			remoteInfo = "CTVideoView-CTVideoView";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05E0C714F95B1EC770C6E6F3CDE487FC /* CTPlayerAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTPlayerAudioManager.h; sourceTree = "<group>"; };
-		07A6970B27FBE95BA28FCFA020C6E7F8 /* AVPlayerItem+Audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+Audio.h"; sourceTree = "<group>"; };
-		08BFC7488BC154BB865646141A7D96A5 /* CTVideoVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoVC.h; sourceTree = "<group>"; };
-		0D1465A2996B6B955A7390F2F14F9DEF /* CTPlayerAudioManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTPlayerAudioManager.m; sourceTree = "<group>"; };
-		1C07A99017AE537B91476F2E0F067664 /* CTTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTTableViewCell.h; sourceTree = "<group>"; };
-		22545B9E0C955847C22E8661CE0247F6 /* AVPlayerItem+Url.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Url.m"; sourceTree = "<group>"; };
+		1BE0118DE26C58B9F6211BF9F8CC5580 /* UIView+PlayerItemSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+PlayerItemSize.m"; sourceTree = "<group>"; };
+		20AEF4A72CB837526CAFDC29919FE4EC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		2321171D65B39CE19F25B262958564EC /* ctvideo_pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_pause@2x.png"; sourceTree = "<group>"; };
+		245DF840180D4702076C35A697387773 /* CTVideoUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoUtil.m; sourceTree = "<group>"; };
 		256F4CED48B88C197329DA0E1253FC13 /* Pods-CTVideoView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTVideoView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		279ECAB81F39DBE5A2A9328E64BA4388 /* Pods-CTVideoView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTVideoView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D27C8602CB0ED59671C8F7A78CE8BD2 /* Pods-CTVideoView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTVideoView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		30C10D1596511D4F8073FB56750D60E3 /* ctvideo_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_play@2x.png"; sourceTree = "<group>"; };
-		30C41CA67C2F6205B07FC7049134A917 /* ctvideo_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_play@3x.png"; sourceTree = "<group>"; };
-		3BE0074360F8A97F0BFCB42AA697F9B3 /* ctvideo_pause@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_pause@2x.png"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2EFCE15C1FE46336F17FF5C7B69707BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		329E5BFA918428A2FE47CF98DF1C6FFB /* CTVideoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoUtil.h; sourceTree = "<group>"; };
+		36D2762C2CCD65D24632401C26038DA8 /* ctvideo_btn_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_btn_play@2x.png"; sourceTree = "<group>"; };
+		3D12F7F5CB4931B8384DA272965C908A /* ctvideo_record@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_record@3x.png"; sourceTree = "<group>"; };
+		401DFE08324A429779EE66F53C7A19F9 /* AVPlayer+AVPlayerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayer+AVPlayerItem.m"; sourceTree = "<group>"; };
 		40D49C4424310AF452755277C37545E0 /* Pods-CTVideoView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTVideoView_Tests-resources.sh"; sourceTree = "<group>"; };
-		429A6A9143DDBD6A220DF63B5E1274C2 /* CTVideoUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoUtil.m; sourceTree = "<group>"; };
-		48AD46FB38E20329943CCC7DDC4832F2 /* CTVideoVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoVC.m; sourceTree = "<group>"; };
-		49B56A927C9C42590FF620569D8B8A30 /* CTVideoControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoControlView.m; sourceTree = "<group>"; };
-		4B481C866164DB2C73BBD21B4619220F /* CTVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoView.h; sourceTree = "<group>"; };
+		473F4DE9E5D5502D5F036A2DC24C3AA4 /* CTVideoView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTVideoView.xcconfig; sourceTree = "<group>"; };
 		4E52034DEE67D305C879484028706965 /* libPods-CTVideoView_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTVideoView_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51BC99EC3CA9FADA15707D343E31B99B /* CTVideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoView.m; sourceTree = "<group>"; };
+		52E462E5B42CEBE8F0B1D7DE8E5A7C98 /* CTVideoVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoVC.h; sourceTree = "<group>"; };
+		55C07FAD5A7AF58FB04CBCA93E694AE0 /* AVPlayerItem+Url.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+Url.h"; sourceTree = "<group>"; };
 		5D44D7C68D42985DF7E892312B219F81 /* Pods-CTVideoView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTVideoView_Tests-dummy.m"; sourceTree = "<group>"; };
 		5DDBF5E5DEA3283F1CFEB65C56BF363B /* Pods-CTVideoView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTVideoView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5FD63926ED6C5CD77ADEA3F16D9B52EA /* CTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTPlayerView.m; sourceTree = "<group>"; };
-		67EB7E692CFE1BAB92C770BC0AC54D06 /* CTVideoView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTVideoView.xcconfig; sourceTree = "<group>"; };
+		5E87F71DABB7997DF91EF02362CF3E1A /* CTVideoView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTVideoView-dummy.m"; sourceTree = "<group>"; };
+		64E2E69044A027950A188FF36110A9E9 /* CTVideoControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoControlView.h; sourceTree = "<group>"; };
+		69FCD0CD3FF18C29F5B5B61B9DF52C4A /* AVPlayerItem+Audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+Audio.h"; sourceTree = "<group>"; };
+		6AB13DF4E60576E47149048B981D0254 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B041275E8A44F8045857749399AA5B1 /* CTVideoControlView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoControlView.m; sourceTree = "<group>"; };
 		6B4DACFEE8603F0251D949A30B64B1C7 /* CTVideoView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTVideoView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		70950589A20587EF34CB099359979FC9 /* CTTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTTableViewCell.h; sourceTree = "<group>"; };
+		79A7A093C08AD01F197C41BD521C8815 /* CTTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTTableViewCell.m; sourceTree = "<group>"; };
 		80A9444ECAE43C6BB76F9702C4B02CA5 /* Pods-CTVideoView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTVideoView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		868EE0E85A1F1EA73C04D152CFAB53CB /* UIView+PlayerItemSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+PlayerItemSize.h"; sourceTree = "<group>"; };
-		90CA2CC0D77F99CC40B8AF8122F5CD3C /* CTVideoView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTVideoView-dummy.m"; sourceTree = "<group>"; };
-		919FD40C79BA45BD16F1096449EDA04B /* CTTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTTestViewController.m; sourceTree = "<group>"; };
-		9756EF9D6951DDE3394C772BF0D00211 /* AVPlayerItem+Url.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+Url.h"; sourceTree = "<group>"; };
-		99E2C5A8E9BD4BAC82606A3D82239CB9 /* ctvideo_record@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_record@3x.png"; sourceTree = "<group>"; };
+		890FC35CACCECB0810BB1956D517321E /* ctvideo_pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_pause@3x.png"; sourceTree = "<group>"; };
+		8CBF0F5A35CE93925264D9CC15F48090 /* CTVideoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoView.m; sourceTree = "<group>"; };
 		9A329AD3F5FF23C4A2571BCF7D8AD532 /* Pods-CTVideoView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CTVideoView_Example-dummy.m"; sourceTree = "<group>"; };
-		9C18020858ACEFC2A24F4FCD5E428C11 /* CTVideoView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTVideoView-prefix.pch"; sourceTree = "<group>"; };
-		A09B18537CBD1D3144DE1C3D5BA8592E /* ctvideo_pause@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_pause@3x.png"; sourceTree = "<group>"; };
-		A39634675C9A634A1D6B09C1DC25CB5B /* ctvideo_btn_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_btn_play@2x.png"; sourceTree = "<group>"; };
+		9B048160D20F1CEE240B3CA32D748FE3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		9D9865CB2A8BDEDB44C8DCAB9EF550E7 /* ctvideo_record@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_record@2x.png"; sourceTree = "<group>"; };
 		A48B5C4C5F461A717E11E48BE74BB5EF /* Pods-CTVideoView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTVideoView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A911956552293B1931CECF5022C19927 /* AVPlayer+AVPlayerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayer+AVPlayerItem.h"; sourceTree = "<group>"; };
 		AA598A87CC2FE64F7AE1929A05476432 /* Pods-CTVideoView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CTVideoView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ACCC355AA45734A339E9C339ECFBB382 /* ctvideo_record@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_record@2x.png"; sourceTree = "<group>"; };
-		AFEDAEE3A87AC5CB976B07053F45AC63 /* CTTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTTestViewController.h; sourceTree = "<group>"; };
-		B70303B1223E8DA585A7C1018B922007 /* CTTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTTableViewCell.m; sourceTree = "<group>"; };
-		B85F6366476628C251FEFDCF52779AA5 /* CTVideoUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoUtil.h; sourceTree = "<group>"; };
+		AC091C61701D053AC3676802173FDCEF /* ctvideo_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_play@2x.png"; sourceTree = "<group>"; };
+		B407FDD4C07317C6F384653F287525A8 /* AVPlayerItem+Url.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Url.m"; sourceTree = "<group>"; };
+		B589FAFBCAB61DD3716E1DCF1CAE5C20 /* CTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTPlayerView.m; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD959182FD8FD5569BA99672E83C2D22 /* CTPlayerAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTPlayerAudioManager.h; sourceTree = "<group>"; };
+		BFC4E1019B4077D19702D384BF81E54D /* ctvideo_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "ctvideo_play@3x.png"; sourceTree = "<group>"; };
 		C1CB3C988640FF392A08541F7046E31D /* Pods-CTVideoView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTVideoView_Example-resources.sh"; sourceTree = "<group>"; };
 		C248DC42DFB25797861783339D6EF2DB /* Pods-CTVideoView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CTVideoView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CA1FB69CCE6B5366F3686C889B47DF55 /* AVPlayer+AVPlayerItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayer+AVPlayerItem.m"; sourceTree = "<group>"; };
-		D2A3316D7E7B8EE7EFDDD513A147E3AC /* CTVideoControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoControlView.h; sourceTree = "<group>"; };
+		C37CF800C150B0FE8A70A4A967179137 /* CTTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTTestViewController.h; sourceTree = "<group>"; };
+		C612C0FBCCB9846A4084C9DE77236674 /* CTPlayerAudioManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTPlayerAudioManager.m; sourceTree = "<group>"; };
+		D0F28D721A94F2069DCAA16162972B10 /* CTVideoVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTVideoVC.m; sourceTree = "<group>"; };
+		D2B9ACB3DD7A12E5CD034D1C6FB837BF /* UIView+PlayerItemSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+PlayerItemSize.h"; sourceTree = "<group>"; };
+		DAF92C6C0360714134CD6E633815FA61 /* CTVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTVideoView.h; sourceTree = "<group>"; };
 		DC76409C4D0E8F754423963090A08430 /* Pods-CTVideoView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CTVideoView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1ADF67A9EA7E61CC32CE33402DE59DE /* UIView+PlayerItemSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+PlayerItemSize.m"; sourceTree = "<group>"; };
-		E9EE037083600B3695689EC6C8D3E799 /* AVPlayer+AVPlayerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AVPlayer+AVPlayerItem.h"; sourceTree = "<group>"; };
+		E640411ED776FB3688C65B08B5FED2B7 /* AVPlayerItem+Audio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Audio.m"; sourceTree = "<group>"; };
 		EACEB999C6F4EAA0471BC8008B6E51D3 /* libPods-CTVideoView_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTVideoView_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC453533225EB8CC19166B2F23607244 /* AVPlayerItem+Audio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Audio.m"; sourceTree = "<group>"; };
 		ED4E391F99986DD7B8CC2C351D5259B7 /* Pods-CTVideoView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CTVideoView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F32883AE1871AEAB80EB92487E778AA5 /* CTVideoView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTVideoView-prefix.pch"; sourceTree = "<group>"; };
 		F39988AA56C744FB3275A59E2D9622B4 /* libCTVideoView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCTVideoView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F93FCAE1B4219F94F7B0D300DEB012AA /* CTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTPlayerView.h; sourceTree = "<group>"; };
+		FE5E7BE8BEDE1031A79ACBDF402A3F55 /* CTTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTTestViewController.m; sourceTree = "<group>"; };
+		FE709FA264169531AB2960730F63F059 /* CTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTPlayerView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,13 +142,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5975B6C65DE0921C4F41493B32BAF7BF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		601F9773FA18F49BABB2530802137912 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,23 +150,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9BD72325246B06901CD402DA4947E65A /* Frameworks */ = {
+		B1B78E7EAA69DB003965C47769CB2081 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2F340EA22188E4ACA591F3C6872AEA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF56A3DFC0D98B6DDF83BD572676016C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33ECAF7345BE916B6D3C8ADF7FA592B8 /* AVFoundation.framework in Frameworks */,
+				548649B601D986C7322D594112088F78 /* Foundation.framework in Frameworks */,
+				82790B322E19387165DBC9C4D8D07DF2 /* MediaPlayer.framework in Frameworks */,
+				A1A34B007CFEC906619B7E18A7F3DB7D /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		172076522EEC2EFAB62104756CC4E26A /* Resources */ = {
+		0667B80AFC174271E7479ACB1C317CD2 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				86F3B33DE93D730CB34D6E9BD79C96C1 /* Pod */,
+				FE709FA264169531AB2960730F63F059 /* CTPlayerView.h */,
+				B589FAFBCAB61DD3716E1DCF1CAE5C20 /* CTPlayerView.m */,
+				64E2E69044A027950A188FF36110A9E9 /* CTVideoControlView.h */,
+				6B041275E8A44F8045857749399AA5B1 /* CTVideoControlView.m */,
+				52E462E5B42CEBE8F0B1D7DE8E5A7C98 /* CTVideoVC.h */,
+				D0F28D721A94F2069DCAA16162972B10 /* CTVideoVC.m */,
+				DAF92C6C0360714134CD6E633815FA61 /* CTVideoView.h */,
+				8CBF0F5A35CE93925264D9CC15F48090 /* CTVideoView.m */,
 			);
-			name = Resources;
+			path = views;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5F8B002DCD971A04D4F8B9D4395C8E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15EF887172D420278A3309C347E30D4D /* CTVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				48BB09A1C1A0B9278EE20BBE16E389AE /* categories */,
+				9BFAEE6C275347B8D1862D7DBFFC08BD /* controllers */,
+				E43E7A5D8C8A0F67B15B8940F8330680 /* manager */,
+				9EC44CA2D5BFD29854BD74A230DDC1B0 /* Resources */,
+				AA071675F78B0CEA92ED2A2AE35C19E0 /* Support Files */,
+				D406C7617BF3C371222C1CA0C19AC9FD /* views */,
+			);
+			name = CTVideoView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		188BEC3CF120A70A739DAD46F0B3A209 /* Pods-CTVideoView_Example */ = {
@@ -185,45 +223,20 @@
 			path = "Target Support Files/Pods-CTVideoView_Example";
 			sourceTree = "<group>";
 		};
-		1F197AC9CB4102C453E07FB0BFC160D9 /* Classes */ = {
+		20F273B107D234C298283EE8636749BD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24476F81315E5F23689DA1B3E65CA47C /* categories */,
-				6E836A16811FCD93749E95340536C085 /* controllers */,
-				4652492A261DA94653D14835A415069F /* manager */,
-				1F2C9E4E441813218BF7E4EDC68124D0 /* views */,
+				F61B30FAB234A4B25CC107629E6B53B9 /* manager */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		1F2C9E4E441813218BF7E4EDC68124D0 /* views */ = {
+		2B68D8F350D69F30C97A760CE8AC3733 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F93FCAE1B4219F94F7B0D300DEB012AA /* CTPlayerView.h */,
-				5FD63926ED6C5CD77ADEA3F16D9B52EA /* CTPlayerView.m */,
-				D2A3316D7E7B8EE7EFDDD513A147E3AC /* CTVideoControlView.h */,
-				49B56A927C9C42590FF620569D8B8A30 /* CTVideoControlView.m */,
-				08BFC7488BC154BB865646141A7D96A5 /* CTVideoVC.h */,
-				48AD46FB38E20329943CCC7DDC4832F2 /* CTVideoVC.m */,
-				4B481C866164DB2C73BBD21B4619220F /* CTVideoView.h */,
-				51BC99EC3CA9FADA15707D343E31B99B /* CTVideoView.m */,
+				C1E70FD532519E9B5CE8107DEBE41E11 /* Classes */,
 			);
-			path = views;
-			sourceTree = "<group>";
-		};
-		24476F81315E5F23689DA1B3E65CA47C /* categories */ = {
-			isa = PBXGroup;
-			children = (
-				E9EE037083600B3695689EC6C8D3E799 /* AVPlayer+AVPlayerItem.h */,
-				CA1FB69CCE6B5366F3686C889B47DF55 /* AVPlayer+AVPlayerItem.m */,
-				07A6970B27FBE95BA28FCFA020C6E7F8 /* AVPlayerItem+Audio.h */,
-				EC453533225EB8CC19166B2F23607244 /* AVPlayerItem+Audio.m */,
-				9756EF9D6951DDE3394C772BF0D00211 /* AVPlayerItem+Url.h */,
-				22545B9E0C955847C22E8661CE0247F6 /* AVPlayerItem+Url.m */,
-				868EE0E85A1F1EA73C04D152CFAB53CB /* UIView+PlayerItemSize.h */,
-				E1ADF67A9EA7E61CC32CE33402DE59DE /* UIView+PlayerItemSize.m */,
-			);
-			path = categories;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		3234024DF66AE35B721FD7D66CF1EAD9 /* Products */ = {
@@ -237,23 +250,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EFFC63796DF24A2B835B691E6F66877 /* Pod */ = {
+		3CB6FE31A374BE4BCC1CE3196F9A8245 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1F197AC9CB4102C453E07FB0BFC160D9 /* Classes */,
+				15EF887172D420278A3309C347E30D4D /* CTVideoView */,
 			);
-			path = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4652492A261DA94653D14835A415069F /* manager */ = {
+		48BB09A1C1A0B9278EE20BBE16E389AE /* categories */ = {
 			isa = PBXGroup;
 			children = (
-				05E0C714F95B1EC770C6E6F3CDE487FC /* CTPlayerAudioManager.h */,
-				0D1465A2996B6B955A7390F2F14F9DEF /* CTPlayerAudioManager.m */,
-				B85F6366476628C251FEFDCF52779AA5 /* CTVideoUtil.h */,
-				429A6A9143DDBD6A220DF63B5E1274C2 /* CTVideoUtil.m */,
+				2B68D8F350D69F30C97A760CE8AC3733 /* Pod */,
 			);
-			path = manager;
+			name = categories;
+			sourceTree = "<group>";
+		};
+		499A1644EDF635022DC6FCD0C0A0A5C8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				65CB17734DCB549169C14C30A834113D /* images */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		5410C1C617A1318A1BB492419D0FE5F8 /* Pods-CTVideoView_Tests */ = {
@@ -271,67 +289,72 @@
 			path = "Target Support Files/Pods-CTVideoView_Tests";
 			sourceTree = "<group>";
 		};
-		5E29E89451AADCB821E6DAEFD88ABEAB /* Assets */ = {
+		554A16DF82CCF0849B52DB3833DDD1F6 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				88F4AFE35724829D45CEBE541C85F7C2 /* images */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		6E836A16811FCD93749E95340536C085 /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				1C07A99017AE537B91476F2E0F067664 /* CTTableViewCell.h */,
-				B70303B1223E8DA585A7C1018B922007 /* CTTableViewCell.m */,
-				AFEDAEE3A87AC5CB976B07053F45AC63 /* CTTestViewController.h */,
-				919FD40C79BA45BD16F1096449EDA04B /* CTTestViewController.m */,
+				70950589A20587EF34CB099359979FC9 /* CTTableViewCell.h */,
+				79A7A093C08AD01F197C41BD521C8815 /* CTTableViewCell.m */,
+				C37CF800C150B0FE8A70A4A967179137 /* CTTestViewController.h */,
+				FE5E7BE8BEDE1031A79ACBDF402A3F55 /* CTTestViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		764218819CC6EA85D7CCFA80AABFA1FE /* Support Files */ = {
+		57FF0BA0CF558BACB39F155C67FA09A0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				67EB7E692CFE1BAB92C770BC0AC54D06 /* CTVideoView.xcconfig */,
-				90CA2CC0D77F99CC40B8AF8122F5CD3C /* CTVideoView-dummy.m */,
-				9C18020858ACEFC2A24F4FCD5E428C11 /* CTVideoView-prefix.pch */,
+				20F273B107D234C298283EE8636749BD /* Classes */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CTVideoView";
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		65CB17734DCB549169C14C30A834113D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				36D2762C2CCD65D24632401C26038DA8 /* ctvideo_btn_play@2x.png */,
+				2321171D65B39CE19F25B262958564EC /* ctvideo_pause@2x.png */,
+				890FC35CACCECB0810BB1956D517321E /* ctvideo_pause@3x.png */,
+				AC091C61701D053AC3676802173FDCEF /* ctvideo_play@2x.png */,
+				BFC4E1019B4077D19702D384BF81E54D /* ctvideo_play@3x.png */,
+				9D9865CB2A8BDEDB44C8DCAB9EF550E7 /* ctvideo_record@2x.png */,
+				3D12F7F5CB4931B8384DA272965C908A /* ctvideo_record@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		6AB6CBBBD7641468DC11988300CAB468 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0667B80AFC174271E7479ACB1C317CD2 /* views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		761155F61A43A3B9BC3E1BAD9CC97F0E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				554A16DF82CCF0849B52DB3833DDD1F6 /* controllers */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				F1343E03BDC9B1ADC602B501841E949E /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3CB6FE31A374BE4BCC1CE3196F9A8245 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				3234024DF66AE35B721FD7D66CF1EAD9 /* Products */,
 				986D5C97814FE66D8C13DAAC213E4BAA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86F3B33DE93D730CB34D6E9BD79C96C1 /* Pod */ = {
+		8C8EEB9B4F5710015051884F06666F69 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5E29E89451AADCB821E6DAEFD88ABEAB /* Assets */,
+				499A1644EDF635022DC6FCD0C0A0A5C8 /* Assets */,
 			);
 			path = Pod;
-			sourceTree = "<group>";
-		};
-		88F4AFE35724829D45CEBE541C85F7C2 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				A39634675C9A634A1D6B09C1DC25CB5B /* ctvideo_btn_play@2x.png */,
-				3BE0074360F8A97F0BFCB42AA697F9B3 /* ctvideo_pause@2x.png */,
-				A09B18537CBD1D3144DE1C3D5BA8592E /* ctvideo_pause@3x.png */,
-				30C10D1596511D4F8073FB56750D60E3 /* ctvideo_play@2x.png */,
-				30C41CA67C2F6205B07FC7049134A917 /* ctvideo_play@3x.png */,
-				ACCC355AA45734A339E9C339ECFBB382 /* ctvideo_record@2x.png */,
-				99E2C5A8E9BD4BAC82606A3D82239CB9 /* ctvideo_record@3x.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 		986D5C97814FE66D8C13DAAC213E4BAA /* Targets Support Files */ = {
@@ -343,73 +366,142 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		9BFAEE6C275347B8D1862D7DBFFC08BD /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				9BFE04D4EE1E60C0C73DA319B39F7B15 /* Pod */,
 			);
-			name = Frameworks;
+			name = controllers;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		9BFE04D4EE1E60C0C73DA319B39F7B15 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				761155F61A43A3B9BC3E1BAD9CC97F0E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		9EC44CA2D5BFD29854BD74A230DDC1B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C8EEB9B4F5710015051884F06666F69 /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AA071675F78B0CEA92ED2A2AE35C19E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				473F4DE9E5D5502D5F036A2DC24C3AA4 /* CTVideoView.xcconfig */,
+				5E87F71DABB7997DF91EF02362CF3E1A /* CTVideoView-dummy.m */,
+				F32883AE1871AEAB80EB92487E778AA5 /* CTVideoView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CTVideoView";
+			sourceTree = "<group>";
+		};
+		AA5F8B002DCD971A04D4F8B9D4395C8E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				20AEF4A72CB837526CAFDC29919FE4EC /* AVFoundation.framework */,
+				6AB13DF4E60576E47149048B981D0254 /* Foundation.framework */,
+				9B048160D20F1CEE240B3CA32D748FE3 /* MediaPlayer.framework */,
+				2EFCE15C1FE46336F17FF5C7B69707BC /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C26E8A7C69A23498C65F4D302B0CBB53 /* CTVideoView */ = {
+		C1E70FD532519E9B5CE8107DEBE41E11 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3EFFC63796DF24A2B835B691E6F66877 /* Pod */,
-				172076522EEC2EFAB62104756CC4E26A /* Resources */,
-				764218819CC6EA85D7CCFA80AABFA1FE /* Support Files */,
+				CB68665F63D3A37787B14098501CE4D0 /* categories */,
 			);
-			name = CTVideoView;
-			path = ../..;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		F1343E03BDC9B1ADC602B501841E949E /* Development Pods */ = {
+		CB68665F63D3A37787B14098501CE4D0 /* categories */ = {
 			isa = PBXGroup;
 			children = (
-				C26E8A7C69A23498C65F4D302B0CBB53 /* CTVideoView */,
+				A911956552293B1931CECF5022C19927 /* AVPlayer+AVPlayerItem.h */,
+				401DFE08324A429779EE66F53C7A19F9 /* AVPlayer+AVPlayerItem.m */,
+				69FCD0CD3FF18C29F5B5B61B9DF52C4A /* AVPlayerItem+Audio.h */,
+				E640411ED776FB3688C65B08B5FED2B7 /* AVPlayerItem+Audio.m */,
+				55C07FAD5A7AF58FB04CBCA93E694AE0 /* AVPlayerItem+Url.h */,
+				B407FDD4C07317C6F384653F287525A8 /* AVPlayerItem+Url.m */,
+				D2B9ACB3DD7A12E5CD034D1C6FB837BF /* UIView+PlayerItemSize.h */,
+				1BE0118DE26C58B9F6211BF9F8CC5580 /* UIView+PlayerItemSize.m */,
 			);
-			name = "Development Pods";
+			path = categories;
+			sourceTree = "<group>";
+		};
+		D406C7617BF3C371222C1CA0C19AC9FD /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E6D5C705CF48DB00A371CDB3B93A849B /* Pod */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		E43E7A5D8C8A0F67B15B8940F8330680 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				57FF0BA0CF558BACB39F155C67FA09A0 /* Pod */,
+			);
+			name = manager;
+			sourceTree = "<group>";
+		};
+		E6D5C705CF48DB00A371CDB3B93A849B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6AB6CBBBD7641468DC11988300CAB468 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F61B30FAB234A4B25CC107629E6B53B9 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				BD959182FD8FD5569BA99672E83C2D22 /* CTPlayerAudioManager.h */,
+				C612C0FBCCB9846A4084C9DE77236674 /* CTPlayerAudioManager.m */,
+				329E5BFA918428A2FE47CF98DF1C6FFB /* CTVideoUtil.h */,
+				245DF840180D4702076C35A697387773 /* CTVideoUtil.m */,
+			);
+			path = manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A6C6D5810F89879C774051CC28F0D5E9 /* Headers */ = {
+		20A46E6A42D15D7ED7C872CC0B1D57F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0AA6B54D086598A0F6CAEAC0F85683A /* AVPlayer+AVPlayerItem.h in Headers */,
-				FBDAF745F991C354DBCBD5BEBBC1A219 /* AVPlayerItem+Audio.h in Headers */,
-				364F3588932F6AA1B997BC4547FD6D49 /* AVPlayerItem+Url.h in Headers */,
-				F5DCD0DECD8FCC986DD887E86ACBC61C /* CTPlayerAudioManager.h in Headers */,
-				D3213022C625714E9E9412E45D3D4ED6 /* CTPlayerView.h in Headers */,
-				1B0CE0A8E2A0C0D6BCAD8B717BA03E48 /* CTTableViewCell.h in Headers */,
-				F117283AC1B1E814871A552A42013E65 /* CTTestViewController.h in Headers */,
-				38C9DBFDC0FA4C6D8A44E173D9A7C066 /* CTVideoControlView.h in Headers */,
-				68153B75BD5245A94662F54361F6E5EF /* CTVideoUtil.h in Headers */,
-				61F03AFCB4FEB042727F47F1B15F5E27 /* CTVideoVC.h in Headers */,
-				096DDE2950C7C22C305DD6443B7A5E96 /* CTVideoView.h in Headers */,
-				2571EB635E226B31707B9D5EA2336A5D /* UIView+PlayerItemSize.h in Headers */,
+				E889091FD1AE925DFCC2486691690D3F /* AVPlayer+AVPlayerItem.h in Headers */,
+				4393C9C4837FDFA6F9D2DF5B0B8DC968 /* AVPlayerItem+Audio.h in Headers */,
+				0D7B91A2D8DB4B412EDDE10C15CD1121 /* AVPlayerItem+Url.h in Headers */,
+				3A1789D6FC259DD51C733920A8976726 /* CTPlayerAudioManager.h in Headers */,
+				2FD9B97AAF28A7C82CA8A6C88771FE3F /* CTPlayerView.h in Headers */,
+				584511A02278A3C84413C54DEC1E6E52 /* CTTableViewCell.h in Headers */,
+				B75CEECF86EEA4A384C5D3B1F73AD752 /* CTTestViewController.h in Headers */,
+				80172C3A122BF7FAE8B2FDC6FC108E39 /* CTVideoControlView.h in Headers */,
+				9E0712F49B41D1D033561103B0B79296 /* CTVideoUtil.h in Headers */,
+				966C057F8984AB5FE83F269C53EC7E3F /* CTVideoVC.h in Headers */,
+				B499511D4318657F41E7C2DD49ADD23E /* CTVideoView.h in Headers */,
+				CFF29E38FF6315235B11654BF1BB68B6 /* UIView+PlayerItemSize.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		296B361816E8CB46DA8710EE76B74FC6 /* CTVideoView-CTVideoView */ = {
+		32DB0C7217A492F34B8197F57BD8001C /* CTVideoView-CTVideoView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84E4893880F5234D90D71829C1B0C747 /* Build configuration list for PBXNativeTarget "CTVideoView-CTVideoView" */;
+			buildConfigurationList = 343F7D9411FDF094781A3C87941B1B3D /* Build configuration list for PBXNativeTarget "CTVideoView-CTVideoView" */;
 			buildPhases = (
-				4B94A7279290F536D54F900951B8FBE9 /* Sources */,
-				5975B6C65DE0921C4F41493B32BAF7BF /* Frameworks */,
-				C935DD001C9E6DB0D1ABAF98C94E2474 /* Resources */,
+				A7C10D6B1F0D6776271108E5BA8E4338 /* Sources */,
+				B1B78E7EAA69DB003965C47769CB2081 /* Frameworks */,
+				39B5680B2A44BD77127E756F76B25BBE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -419,24 +511,6 @@
 			productName = "CTVideoView-CTVideoView";
 			productReference = 6B4DACFEE8603F0251D949A30B64B1C7 /* CTVideoView.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		2A283776BD922FA4F7B393E6B0250A49 /* CTVideoView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 741BAED27D2AEEDD66D5FC670A886CB0 /* Build configuration list for PBXNativeTarget "CTVideoView" */;
-			buildPhases = (
-				94E917876354DEAED726E6C15F0CBFBE /* Sources */,
-				9BD72325246B06901CD402DA4947E65A /* Frameworks */,
-				A6C6D5810F89879C774051CC28F0D5E9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				65888557C64DCF77D3B6C69D9DB22624 /* PBXTargetDependency */,
-			);
-			name = CTVideoView;
-			productName = CTVideoView;
-			productReference = F39988AA56C744FB3275A59E2D9622B4 /* libCTVideoView.a */;
-			productType = "com.apple.product-type.library.static";
 		};
 		3E46EE0EFDBF813F7D1C2BE25DEBA5CE /* Pods-CTVideoView_Tests */ = {
 			isa = PBXNativeTarget;
@@ -472,6 +546,24 @@
 			productReference = EACEB999C6F4EAA0471BC8008B6E51D3 /* libPods-CTVideoView_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		E5CF8083F7F27E2AD2C8513CFB8907B5 /* CTVideoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA4676964FBBBCC917917AB83D55955 /* Build configuration list for PBXNativeTarget "CTVideoView" */;
+			buildPhases = (
+				EE51B1BB5D895C6C44219C38DE3EA13A /* Sources */,
+				FF56A3DFC0D98B6DDF83BD572676016C /* Frameworks */,
+				20A46E6A42D15D7ED7C872CC0B1D57F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF0A6D937A9722118FB4BC722F8FABD /* PBXTargetDependency */,
+			);
+			name = CTVideoView;
+			productName = CTVideoView;
+			productReference = F39988AA56C744FB3275A59E2D9622B4 /* libCTVideoView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -493,8 +585,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A283776BD922FA4F7B393E6B0250A49 /* CTVideoView */,
-				296B361816E8CB46DA8710EE76B74FC6 /* CTVideoView-CTVideoView */,
+				E5CF8083F7F27E2AD2C8513CFB8907B5 /* CTVideoView */,
+				32DB0C7217A492F34B8197F57BD8001C /* CTVideoView-CTVideoView */,
 				4B330861FFF63CD3B8D2257486B77F3A /* Pods-CTVideoView_Example */,
 				3E46EE0EFDBF813F7D1C2BE25DEBA5CE /* Pods-CTVideoView_Tests */,
 			);
@@ -502,47 +594,27 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C935DD001C9E6DB0D1ABAF98C94E2474 /* Resources */ = {
+		39B5680B2A44BD77127E756F76B25BBE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				399BEC048998FE8EA85D86BD0F4ED592 /* ctvideo_btn_play@2x.png in Resources */,
-				307380F203BFDEC228F49EA6D0AB347B /* ctvideo_pause@2x.png in Resources */,
-				559FF1C3F9EEFA8DDF9DADA0677474D9 /* ctvideo_pause@3x.png in Resources */,
-				E397478CB66E9188E09FA7252675C972 /* ctvideo_play@2x.png in Resources */,
-				DB8D7C9AA9200628BDDDE4701CBA4A9C /* ctvideo_play@3x.png in Resources */,
-				D255FD58CD7597232B6CBEF72BEDD471 /* ctvideo_record@2x.png in Resources */,
-				51B5CFFE9C7D1814F7AB2962798133C8 /* ctvideo_record@3x.png in Resources */,
+				23FF519AEEE48729B843ED2E5361C46C /* ctvideo_btn_play@2x.png in Resources */,
+				944AE35EB27A6CCA5440A6F9DA9C9038 /* ctvideo_pause@2x.png in Resources */,
+				052829A77DFF7D57879FFB005FFDB619 /* ctvideo_pause@3x.png in Resources */,
+				09688D9841E5C7CE3F99A81F64657FE8 /* ctvideo_play@2x.png in Resources */,
+				44D3902AC3CDF2C5EBB0FB1FD5786F68 /* ctvideo_play@3x.png in Resources */,
+				F93C8CE57DCF328D3E4EBC564E3CE1D0 /* ctvideo_record@2x.png in Resources */,
+				D128B6CE7FC031E4DF24F18358EC9CFE /* ctvideo_record@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4B94A7279290F536D54F900951B8FBE9 /* Sources */ = {
+		A7C10D6B1F0D6776271108E5BA8E4338 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94E917876354DEAED726E6C15F0CBFBE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDBE5C21089C1B6440331E2FC38C67BE /* AVPlayer+AVPlayerItem.m in Sources */,
-				0E537FAF40A538C12D45CC58E5B525A1 /* AVPlayerItem+Audio.m in Sources */,
-				1CBC2E5E401913DA4DC3AE3C18F8DAB4 /* AVPlayerItem+Url.m in Sources */,
-				3B24FE5207293A1DB9F08558F5CB4273 /* CTPlayerAudioManager.m in Sources */,
-				1B3627EF79CA92CA172FCF76733D561F /* CTPlayerView.m in Sources */,
-				0FA3BF29D57B16BDA51CC9F45D78BB03 /* CTTableViewCell.m in Sources */,
-				5CEAE328B616AC028560E6C298023AC6 /* CTTestViewController.m in Sources */,
-				7E31DBAA95720EDDEEE18FDA476220BA /* CTVideoControlView.m in Sources */,
-				57BE1FE3F4FAC234BC0E9B20BB8255ED /* CTVideoUtil.m in Sources */,
-				BCAA8A5E2DE67F81AE683D7C833AA81D /* CTVideoVC.m in Sources */,
-				7E60B842381B73884C7CE186DDC1FFC9 /* CTVideoView-dummy.m in Sources */,
-				C0AE196E031A1B41CD179B4C3932F003 /* CTVideoView.m in Sources */,
-				87200BE1B0AAF6C8E14478A46F45606B /* UIView+PlayerItemSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,48 +634,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE51B1BB5D895C6C44219C38DE3EA13A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D85BCF3988C30F9014C6A3D6D8E66D /* AVPlayer+AVPlayerItem.m in Sources */,
+				8A9E5DBBD11D8D9D191081911D158175 /* AVPlayerItem+Audio.m in Sources */,
+				81F6C3F295F320614933BEF4538E0434 /* AVPlayerItem+Url.m in Sources */,
+				7FCB5F699B37B7DCF40D69E1DEEC3305 /* CTPlayerAudioManager.m in Sources */,
+				C97D9700DF1DE992F84DAF39F0FAF240 /* CTPlayerView.m in Sources */,
+				D529F6DFEDDF439891E927712F5893F5 /* CTTableViewCell.m in Sources */,
+				06E0A0655965FA939417A73859C1F0F9 /* CTTestViewController.m in Sources */,
+				5C0172B8446B9426D9A81C79112B4BFA /* CTVideoControlView.m in Sources */,
+				F4C8BB7195394B0384C5ADA848D52C4A /* CTVideoUtil.m in Sources */,
+				F048008B8B37CA28A05D8127981DA4B3 /* CTVideoVC.m in Sources */,
+				2F6CCB87B46B139675C305168CEA4FEC /* CTVideoView-dummy.m in Sources */,
+				B918D5C6C033752C552A60CFE4C4D7B8 /* CTVideoView.m in Sources */,
+				C2E3AA97932EF5D59C2A3BE9EF8C9F74 /* UIView+PlayerItemSize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		1A9E59015D67778BF998D0292BD9602A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTVideoView;
-			target = 2A283776BD922FA4F7B393E6B0250A49 /* CTVideoView */;
+			target = E5CF8083F7F27E2AD2C8513CFB8907B5 /* CTVideoView */;
 			targetProxy = D3A5EB46CD97CCE5E6FE52F296AE600F /* PBXContainerItemProxy */;
 		};
-		65888557C64DCF77D3B6C69D9DB22624 /* PBXTargetDependency */ = {
+		4BF0A6D937A9722118FB4BC722F8FABD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "CTVideoView-CTVideoView";
-			target = 296B361816E8CB46DA8710EE76B74FC6 /* CTVideoView-CTVideoView */;
-			targetProxy = E31F8E40D080AFFD48209CEF65E1838B /* PBXContainerItemProxy */;
+			target = 32DB0C7217A492F34B8197F57BD8001C /* CTVideoView-CTVideoView */;
+			targetProxy = 2CF685F6A0905373A91D6F0143A88C6C /* PBXContainerItemProxy */;
 		};
 		7B23CC3975FE0DAC3AE0D9427C0B9766 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CTVideoView;
-			target = 2A283776BD922FA4F7B393E6B0250A49 /* CTVideoView */;
+			target = E5CF8083F7F27E2AD2C8513CFB8907B5 /* CTVideoView */;
 			targetProxy = 46ADC73385F9E543B2E55258A85D1913 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03539DD7297E70CBF7E27C9739C77D25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67EB7E692CFE1BAB92C770BC0AC54D06 /* CTVideoView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CTVideoView/CTVideoView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -637,18 +711,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		086093FA29F58E330ED696ECAF6C71EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67EB7E692CFE1BAB92C770BC0AC54D06 /* CTVideoView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = CTVideoView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -686,6 +748,24 @@
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F339A7719ED088E653238B3302032CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473F4DE9E5D5502D5F036A2DC24C3AA4 /* CTVideoView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CTVideoView/CTVideoView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -740,27 +820,9 @@
 			};
 			name = Release;
 		};
-		5B2B4D2720CDED68BC0E11CE08C857D9 /* Release */ = {
+		958602903145C4952B2043540B7A67F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67EB7E692CFE1BAB92C770BC0AC54D06 /* CTVideoView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CTVideoView/CTVideoView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		9B20AB7B54477616B0FF77482A992FFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67EB7E692CFE1BAB92C770BC0AC54D06 /* CTVideoView.xcconfig */;
+			baseConfigurationReference = 473F4DE9E5D5502D5F036A2DC24C3AA4 /* CTVideoView.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = CTVideoView;
@@ -768,7 +830,7 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		B7DCE67A518D0AB1102C827FD5362437 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -784,6 +846,36 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CE2BFF03E8FE5F1BDDF2E3EE0AEE4B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473F4DE9E5D5502D5F036A2DC24C3AA4 /* CTVideoView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CTVideoView/CTVideoView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DB4D62AF1CD3882AA4977764ED67D1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 473F4DE9E5D5502D5F036A2DC24C3AA4 /* CTVideoView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CTVideoView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -808,20 +900,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		741BAED27D2AEEDD66D5FC670A886CB0 /* Build configuration list for PBXNativeTarget "CTVideoView" */ = {
+		343F7D9411FDF094781A3C87941B1B3D /* Build configuration list for PBXNativeTarget "CTVideoView-CTVideoView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03539DD7297E70CBF7E27C9739C77D25 /* Debug */,
-				5B2B4D2720CDED68BC0E11CE08C857D9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84E4893880F5234D90D71829C1B0C747 /* Build configuration list for PBXNativeTarget "CTVideoView-CTVideoView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				086093FA29F58E330ED696ECAF6C71EF /* Debug */,
-				9B20AB7B54477616B0FF77482A992FFE /* Release */,
+				958602903145C4952B2043540B7A67F8 /* Debug */,
+				DB4D62AF1CD3882AA4977764ED67D1B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -831,6 +914,15 @@
 			buildConfigurations = (
 				3FCB39A23DE20B33B285AAB67021CD0F /* Debug */,
 				4CF4DA0F4A3C769300C7177DF3753BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA4676964FBBBCC917917AB83D55955 /* Build configuration list for PBXNativeTarget "CTVideoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F339A7719ED088E653238B3302032CA /* Debug */,
+				CE2BFF03E8FE5F1BDDF2E3EE0AEE4B56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

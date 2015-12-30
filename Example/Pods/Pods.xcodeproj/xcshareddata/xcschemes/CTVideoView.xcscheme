@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C2A7BF5374B19F9F29DC45E7'
+               BlueprintIdentifier = 'F427F1E94066010DD31C39E1'
                BlueprintName = 'CTVideoView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libCTVideoView.a'>

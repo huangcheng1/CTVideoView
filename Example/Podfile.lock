@@ -1,5 +1,17 @@
 PODS:
-  - CTVideoView (0.1.0)
+  - CTVideoView (0.1.0):
+    - CTVideoView/categories (= 0.1.0)
+    - CTVideoView/controllers (= 0.1.0)
+    - CTVideoView/manager (= 0.1.0)
+    - CTVideoView/views (= 0.1.0)
+  - CTVideoView/categories (0.1.0)
+  - CTVideoView/controllers (0.1.0):
+    - CTVideoView/manager
+    - CTVideoView/views
+  - CTVideoView/manager (0.1.0)
+  - CTVideoView/views (0.1.0):
+    - CTVideoView/categories
+    - CTVideoView/manager
 
 DEPENDENCIES:
   - CTVideoView (from `../`)
@@ -9,6 +21,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CTVideoView: f75ad1c66ccc7ef0b398c60e70f7f6c7c8829027
+  CTVideoView: 1a9d29c943c4d952fef8a400ee7f78bfeac83265
 
 COCOAPODS: 0.39.0
