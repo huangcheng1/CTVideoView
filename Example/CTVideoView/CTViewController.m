@@ -7,6 +7,7 @@
 //
 
 #import "CTViewController.h"
+#import "CTTestViewController.h"
 
 @interface CTViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)click:(id)sender{
+    
+    [self presentViewController:[[CTTestViewController alloc]init] animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

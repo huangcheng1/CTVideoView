@@ -1,0 +1,25 @@
+{
+  "name": "CTVideoView",
+  "version": "0.1.0",
+  "summary": "A short description of CTVideoView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/CTVideoView",
+  "license": "MIT",
+  "authors": {
+    "root": "632300630@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/CTVideoView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CTVideoView": [
+      "Pod/Assets/images/*.png"
+    ]
+  }
+}

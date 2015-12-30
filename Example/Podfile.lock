@@ -1,0 +1,14 @@
+PODS:
+  - CTVideoView (0.1.0)
+
+DEPENDENCIES:
+  - CTVideoView (from `../`)
+
+EXTERNAL SOURCES:
+  CTVideoView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CTVideoView: f75ad1c66ccc7ef0b398c60e70f7f6c7c8829027
+
+COCOAPODS: 0.39.0

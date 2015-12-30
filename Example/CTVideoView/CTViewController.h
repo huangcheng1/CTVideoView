@@ -10,4 +10,6 @@
 
 @interface CTViewController : UIViewController
 
+- (IBAction)click:(id)sender;
+
 @end
